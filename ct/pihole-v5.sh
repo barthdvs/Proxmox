@@ -128,7 +128,7 @@ function default_settings() {
   echo -e "${DGN}Enable Root SSH Access: ${BGN}No${CL}"
   SSH="no"
   echo -e "${DGN}Enable Verbose Mode: ${BGN}No${CL}"
-  VERB="no"
+  VERB="yes"
   VERB2="silent"
   echo -e "${BL}Creating a ${APP} LXC using the above default settings${CL}"
 }
