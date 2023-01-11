@@ -114,9 +114,9 @@ function default_settings() {
   echo -e "${DGN}Using Bridge: ${BGN}vmbr0${CL}"
   BRG="vmbr0"
   echo -e "${DGN}Using Static IP Address: ${BGN}dhcp${CL}"
-  NET=dhcp
+  NET=192.168.1.99/24
   echo -e "${DGN}Using Gateway Address: ${BGN}Default${CL}"
-  GATE=""
+  GATE="192.168.1.1"
   echo -e "${DGN}Using DNS Search Domain: ${BGN}Host${CL}"
   SD=""
   echo -e "${DGN}Using DNS Server Address: ${BGN}Host${CL}"
